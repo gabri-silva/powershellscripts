@@ -1,7 +1,7 @@
 ﻿param($p1)
 
 if (!$p1){
-    echo "Desec Sec"
+    echo "PingSweep"
     echo "Uso: .\script.ps1 [rede]"
 } else {
 foreach ($ip in 1..254){
